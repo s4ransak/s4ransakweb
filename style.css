@@ -53,7 +53,7 @@ hr {
   
   .navbar a {
     float: left;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -63,7 +63,7 @@ hr {
 
   .navbar .logo {
     float: left;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-align: center;
     padding: 14px 16px;
