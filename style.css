@@ -1,0 +1,145 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.post-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: left;
+}
+
+.post-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.post-author {
+  font-size: 14px;
+  color: #555;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #555;
+}
+
+body {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+  font-size: 45px;
+  color: #ffa200;
+}
+
+hr {
+    background-color: gray;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .navbar .logo {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #ffa200;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #333;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  * {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.mySlides {display:none;}
+
+a {
+  color: #ffa200;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+span {
+    color: #555;
+}
+
+em {
+  color: gray;
+}
+
+hr {
+  background-color: gray;
+}
