@@ -40,6 +40,7 @@ body {
 h1 {
   font-size: 45px;
   color: #ffa200;
+  text-decoration: underline;
 }
 
 hr {
