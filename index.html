@@ -9,34 +9,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="myFunction()">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
     <nav>
         <div class="navbar">
             <div class="logo">@s4ransak</div>
-            <a href="https://x.com/s4ransak">x/s4ransak</a>
-            <a href="https://www.instagram.com/s4ransak">instagram/s4ransak</a>
-            <a href="https://threads.net/@s4ransak">threads/s4ransak</a>
-            <a href="https://www.roblox.com/users/219205814/profile">roblox/s4ransak</a>
+            <a href="https://x.com/s4ransak"><img src="assets/twitter_2.ico" alt="" height="20">/x (twitter)</a>
+            <a href="https://www.instagram.com/s4ransak"><img src="assets/instagram.ico" alt="" height="20">/instagram</a>
+            <a href="https://threads.net/@s4ransak"><img src="assets/threads.ico" alt="" height="20">/threads</a>
+            <a href="https://www.roblox.com/users/219205814/profile"><img src="assets/roblox.ico" alt="" height="20">/roblox</a>
         </div>
     </nav>
     <h1 style="font-size: 60px; color: #fff; text-decoration: underline;">welcome to my website!</h1>
     <h1>about me</h1>
-    <p>hi guy! my name is saransak lueangoon, now i'm making fps game on <a href="https://www.roblox.com/">roblox</a>.<br>i think it's publish on 2027. i'm born in january 10, 2012 now i'm 12 years old.<br>i'm study at phitsanulok pittayakom school</p>
+    <p>hi guy! my name is saransak lueangoon, now i'm making fps game on <a href="https://www.roblox.com/">roblox</a>. i think it's publish on 2027.<br>i'm born in january 10, 2012 now i'm 12 years old. i'm study at phitsanulok pittayakom school</p>
     <h1>portfolio</h1>
     <img src="assets/port1.webp" alt="portfolio1">
     <h1>certificate</h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcNWNgv0lPv4IDVm8L3ddubY6gRnUKBlG_YsNVS-V5Q&s" alt="portfolio1">
-
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcNWNgv0lPv4IDVm8L3ddubY6gRnUKBlG_YsNVS-V5Q&s" alt="portfolio1">
-
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcNWNgv0lPv4IDVm8L3ddubY6gRnUKBlG_YsNVS-V5Q&s" alt="portfolio1">
-    
-
+    <img src="assets/cert1.webp" alt="certificate1">
     <footer>
         <hr>
         <span>this website made by saransak lueangoon.<br><br>stay tuned.<br><a href="https://playvoilow.net/">https://playvoilow.net/</a><br><br>i will make you fun.</span>
         <br>
         <p></p>
     </footer>
+</div>
+    
 </body>
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+</script>
 </html>
