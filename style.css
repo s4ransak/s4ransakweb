@@ -168,6 +168,11 @@ em {
   font-weight: 700;
   background-image: linear-gradient(to bottom right, #00aaff, #0000ff);
   font-size: 20px;
+  transition: 0.3s;
+}
+
+.new-tag {
+  font-size: 25px;
 }
 
 video {
