@@ -176,6 +176,20 @@ em {
   background-color: #d000ff;
 }
 
+.fromx-tag {
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+  background-image: linear-gradient(to bottom right, #999, #000);
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.fromx-tag:hover {
+  background-image: none;
+  background-color: #555;
+}
+
 video {
   width: 533;
   height: 300;
