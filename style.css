@@ -172,7 +172,8 @@ em {
 }
 
 .new-tag:hover {
-  background-image: linear-gradient(to bottom right, #0000ff, #d000ff);
+  background-image: none;
+  background-color: #d000ff;
 }
 
 video {
